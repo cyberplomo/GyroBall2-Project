@@ -8,7 +8,7 @@ public class objeRotate : MonoBehaviour
     void Start()
     {
         //create rotation around x-axis
-        rotation = Quaternion.AngleAxis(rotationSpeed * Time.deltaTime, Vector3.right);
+        rotation = Quaternion.AngleAxis(rotationSpeed * Time.deltaTime, Vector3.forward);
         //Vector3.right x ekseni, Vector3.forward y ekseni, Vector3.up z ekseni
     }
     void Update()
