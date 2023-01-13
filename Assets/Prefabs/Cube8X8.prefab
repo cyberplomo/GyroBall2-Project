@@ -61,7 +61,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5099221656744876899, guid: 82578edf3f6735042b51c3aa520f07e4, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: Cube8X8
       objectReference: {fileID: 0}
+    - target: {fileID: 6300251228101132019, guid: 82578edf3f6735042b51c3aa520f07e4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dfc83b6f3ea8b0c498879746af34add0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82578edf3f6735042b51c3aa520f07e4, type: 3}
