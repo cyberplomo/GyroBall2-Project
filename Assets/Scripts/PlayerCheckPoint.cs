@@ -12,11 +12,11 @@ public class PlayerCheckPoint : MonoBehaviour
         
     }
     void Update()
-    {
-        if (chracter.transform.position.y < -0.1f)
-        {
-            chracter.position = spawnPoint;
-        }
+    {	//death area ile bu sorunu çözdüm.S
+        //if (chracter.transform.position.y < -0.1f)
+        //{
+            //chracter.position = spawnPoint;
+       // }
         
     }
     private void OnTriggerEnter(Collider other)
