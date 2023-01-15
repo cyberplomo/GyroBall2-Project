@@ -3298,15 +3298,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 108.08
+      value: 107.81
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.58
+      value: 11.48
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -191.47
+      value: -191.09
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3340,8 +3340,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: sahnegecis
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1894184394969098940, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
+--- !u!1 &640354490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1894184394969098939, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
+  m_PrefabInstance: {fileID: 640354489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &640354491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640354490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4be18609b4ff6489025e3b5011a3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &649008932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7528,13 +7546,13 @@ Transform:
   - {fileID: 1842703983}
   - {fileID: 511863714}
   - {fileID: 144607196}
+  - {fileID: 1922923873}
   - {fileID: 2134915221}
   - {fileID: 1509251630}
   - {fileID: 103945999}
   - {fileID: 1893792047}
   - {fileID: 578847342}
   - {fileID: 1907742129}
-  - {fileID: 1922923873}
   - {fileID: 1787008233}
   - {fileID: 861683167}
   - {fileID: 395878357}

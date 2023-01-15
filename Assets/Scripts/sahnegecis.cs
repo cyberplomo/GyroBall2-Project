@@ -8,4 +8,5 @@ public class sahnegecis : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+	
 }

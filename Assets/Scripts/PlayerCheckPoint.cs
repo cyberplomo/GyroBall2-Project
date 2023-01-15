@@ -35,6 +35,7 @@ public class PlayerCheckPoint : MonoBehaviour
         }
         
     }
+	
     private void spawn()
     {
         chracter.position = spawnPoint;
