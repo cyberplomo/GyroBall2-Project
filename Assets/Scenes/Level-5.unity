@@ -3229,15 +3229,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 107.81
+      value: 108.01
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.48
+      value: 11.47
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -191.09
+      value: -191.27
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3998,6 +3998,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8037161961968358616, guid: 17102969e7164814a9836021383e5f06, type: 3}
+      propertyPath: NextLevel
+      value: 
+      objectReference: {fileID: 1266225115}
     - target: {fileID: 8037161961968358621, guid: 17102969e7164814a9836021383e5f06, type: 3}
       propertyPath: m_Name
       value: Player
@@ -5487,6 +5491,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a29f5bb4a11674409d3dc17ae1acdeb, type: 3}
+--- !u!223 &1266225115 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4270061856891842379, guid: 7a29f5bb4a11674409d3dc17ae1acdeb, type: 3}
+  m_PrefabInstance: {fileID: 1266225114}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1266984844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7391,7 +7400,6 @@ Transform:
   - {fileID: 294378254}
   - {fileID: 313235710}
   - {fileID: 1856836065}
-  - {fileID: 697915206}
   - {fileID: 166808152}
   - {fileID: 42978999}
   - {fileID: 2004222119}
@@ -7405,6 +7413,7 @@ Transform:
   - {fileID: 330264537}
   - {fileID: 1842703983}
   - {fileID: 511863714}
+  - {fileID: 697915206}
   - {fileID: 144607196}
   - {fileID: 1922923873}
   - {fileID: 2134915221}

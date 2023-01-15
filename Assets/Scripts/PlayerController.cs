@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 	private int count;
 	private float movementX;
 	private float movementY;
-
+	public Canvas NextLevel;
 	
 
     // Start is called before the first frame update
@@ -44,20 +44,17 @@ public class PlayerController : MonoBehaviour
 			other.gameObject.SetActive (false);	
 			
 		}
+		if (other.CompareTag("Canvas"))
+		{
+			NextLevel.gameObject.SetActive(true);
+
+		}
 		//if (other.gameObject.CompareTag("CheckPoint2"))
 		//{
 		//	other.gameObject.SetActive (false);	
 			
 		//}
 	}
-	void SetCountText ()
-	{
-		countText.text = "Count: " + count.ToString();
-		if (count >= 8)
-		{
-			winText.text = "You win!";		
-		}
-		
-	}
+	
 	
 }

@@ -299,6 +299,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4270061856891842382, guid: 7a29f5bb4a11674409d3dc17ae1acdeb, type: 3}
+      propertyPath: m_TagString
+      value: Canvas
+      objectReference: {fileID: 0}
     - target: {fileID: 4270061856974751810, guid: 7a29f5bb4a11674409d3dc17ae1acdeb, type: 3}
       propertyPath: m_Text
       value: Level-1
@@ -6620,6 +6624,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db858489e2ba863419c1578fb28da656, type: 3}
+--- !u!223 &1440541172 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4270061856891842379, guid: 7a29f5bb4a11674409d3dc17ae1acdeb, type: 3}
+  m_PrefabInstance: {fileID: 78115990}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1448415468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 455394, guid: db858489e2ba863419c1578fb28da656, type: 3}
@@ -6676,6 +6685,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8037161961968358616, guid: 17102969e7164814a9836021383e5f06, type: 3}
+      propertyPath: NextLevel
+      value: 
+      objectReference: {fileID: 1440541172}
     - target: {fileID: 8037161961968358616, guid: 17102969e7164814a9836021383e5f06, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -9358,15 +9371,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -145.48
+      value: -145.58
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.5
+      value: 17.41
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -304.1
+      value: -303.8
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9402,7 +9415,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098939, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Canvas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1894184394969098940, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
