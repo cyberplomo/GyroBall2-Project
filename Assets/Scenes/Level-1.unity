@@ -6680,6 +6680,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8037161961968358619, guid: 17102969e7164814a9836021383e5f06, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33230baef4dda4cf4bd25fcb15d0d06f, type: 2}
     - target: {fileID: 8037161961968358621, guid: 17102969e7164814a9836021383e5f06, type: 3}
       propertyPath: m_Name
       value: Player
@@ -9354,15 +9358,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -144.84
+      value: -145.48
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.57
+      value: 17.5
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -303.97
+      value: -304.1
       objectReference: {fileID: 0}
     - target: {fileID: 1894184394969098912, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9395,6 +9399,10 @@ PrefabInstance:
     - target: {fileID: 1894184394969098939, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
       propertyPath: m_Name
       value: sahnegecis
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894184394969098939, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e6fdf661a3fb9647bc038010e6e4646, type: 3}
