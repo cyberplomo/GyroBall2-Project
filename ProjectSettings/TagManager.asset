@@ -8,6 +8,7 @@ TagManager:
   - CheckPoint
   - CheckPoint2
   - Canvas
+  - player
   layers:
   - Default
   - TransparentFX
